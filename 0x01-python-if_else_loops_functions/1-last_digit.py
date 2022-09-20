@@ -7,6 +7,7 @@ if number < 0:
     last = number % -10
 else:
     last = number % 10
+
 if last > 5:
     print("{:d} and is greater than 5".format(last))
 elif last == 0:
